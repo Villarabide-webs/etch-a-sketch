@@ -1,0 +1,43 @@
+/* Estilos generales del cuerpo */
+body {
+  margin: 0;                     /* Quitamos márgenes */
+  min-height: 100vh;             /* Altura mínima de pantalla */
+  font-family: Arial, sans-serif;
+  background-color: #222;
+  color: white;
+
+  /* Centramos todo con Flexbox */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+/* Título */
+h1 {
+  margin: 20px 0;
+}
+
+/* Botón */
+button {
+  padding: 10px 20px;
+  margin-bottom: 20px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+/* Contenedor del grid */
+#container {
+  width: 960px;                 /* Tamaño fijo */
+  height: 960px;
+
+  display: flex;                /* Flexbox */
+  flex-wrap: wrap;              /* Permite filas */
+
+  border: 2px solid white;
+}
+
+/* Cada cuadrado del grid */
+.square {
+  background-color: #111;
+}
+
